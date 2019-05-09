@@ -1,27 +1,27 @@
 # coding_assignment
 
 1. Given a string find if the string is palindrome or not
-  Example 
-  Input: Malayalam
-  Output: True
+    Example 
+    Input: Malayalam
+    Output: True
+
+    Run command: php palindrome.php?string=Malayalam
+
+    Input: Dog
+    Output: False
   
-  Run command: php palindrome.php?string=Malayalam
-  
-  Input: Dog
-  Output: False
-  
- Run command: php palindrome.php?string=Dog
-  
- FileName: palindrome.php
+   Run command: php palindrome.php?string=Dog
+
+   FileName: palindrome.php
  
 2. Write a program to reverse a number using numeric operations.
-  Example
-  Input : 12345
-  Output: 54321
-  
-  php reverse.php?n=12345
-  
-  FileName:  palindrome.php
+    Example
+    Input : 12345
+    Output: 54321
+
+    php reverse.php?n=12345
+
+    FileName:  palindrome.php
   
 3. A left rotation operation on an array of size n shifts each of the array's elements 1 unit to the left.
     For example, if 2 left rotations are performed on array [1,2,3,4,5] , then the array would become
