@@ -21,8 +21,9 @@
     echo "Given array:";
     echo "\n";
     echo '<pre>';print_r($array);
-    $number = sizeof($array);       
-    leftRotate($array, 2, $number); 
+    $number = sizeof($array); 
+    $rotate = !empty($_GET['n'])?$_GET['n']:2;      
+    leftRotate($array, $rotate, $number); 
     printArray($array, $number); 
           
 ?> 
